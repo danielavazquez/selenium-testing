@@ -1,0 +1,33 @@
+1641345510755	geckodriver	INFO	Listening on 127.0.0.1:63962
+1641345511615	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/7h/rf9v8xp9007_skxn9lj5tq0r0000gn/T/rust_mozprofiler1MbFj"
+1641345545046	geckodriver	INFO	Listening on 127.0.0.1:64068
+1641345546071	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/7h/rf9v8xp9007_skxn9lj5tq0r0000gn/T/rust_mozprofilevhE08J"
+1641345546485	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/7h/rf9v8xp9007_skxn9lj5tq0r0000gn/T/rust_mozprofilevhE08J/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1641345548044	Marionette	INFO	Listening on port 64079
+1641345548164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641345619114	geckodriver	INFO	Listening on 127.0.0.1:64178
+1641345620149	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/7h/rf9v8xp9007_skxn9lj5tq0r0000gn/T/rust_mozprofilemGLALo"
+1641345620641	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/7h/rf9v8xp9007_skxn9lj5tq0r0000gn/T/rust_mozprofilemGLALo/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1641345622236	Marionette	INFO	Listening on port 64189
+1641345622997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641345626409	Marionette	INFO	Stopped listening on port 64189
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641345637098	Marionette	INFO	Stopped listening on port 64079
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+2022-01-04 18:20:46.278 plugin-container[97514:1584067] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-01-04 18:20:46.278 plugin-container[97514:1584067] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-01-04 18:20:46.319 plugin-container[97514:1584067] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-01-04 18:20:46.319 plugin-container[97514:1584067] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-01-04 18:20:46.320 plugin-container[97514:1584098] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-01-04 18:20:46.320 plugin-container[97514:1584098] nil host used in call to allowsAnyHTTPSCertificateForHost:
