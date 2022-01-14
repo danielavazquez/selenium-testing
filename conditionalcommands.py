@@ -24,5 +24,3 @@ print("status of round trip radio button", roundtrip_radio.is_selected()) #print
 onetrip_radio = driver.find_element_by_css_selector("input[value=oneway]")
 
 print("status of one way radio button", onetrip_radio.is_selected())
-
-print("status of one way radio button", onetrip_radio.is_selected())
