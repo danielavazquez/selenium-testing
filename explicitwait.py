@@ -8,7 +8,7 @@ driver.implicitly_wait(5)  # webdriver syntax
 
 driver.maximize_window()
 
-driver.get("https://www.expedia.com/")
+driver.get("http://demo.guru99.com/test/newtours/")
 driver.find_element_by_id("tab-flight-tab-hp").click() # click on the flights button
 driver.find_element_by_id("flight-origin-hp-flight").send_keys("SFO") # origin
 
